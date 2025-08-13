@@ -1,0 +1,38 @@
+{
+  "name": "node-red-contrib-thaismartcardreader",
+  "version": "0.0.11",
+  "description": "A simple node for node-red to thaismartcardreader",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monthop/node-red-contrib-thaismartcardreader.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@dogrocker/thaismartcardreader": "^0.2.3"
+  },
+  "keywords": [
+    "pcsc",
+    "pcsclite",
+    "smartcards",
+    "ccid",
+    "thaismartcardreader",
+    "node-red"
+  ],
+  "node-red": {
+    "nodes": {
+      "thaismartcardreader": "thaismartcardreader/thaismartcardreader.js"
+    }
+  },
+  "bugs": {
+    "url": "https://github.com/monthop/node-red-contrib-thaismartcardreader/issues"
+  },
+  "homepage": "https://github.com/monthop/node-red-contrib-thaismartcardreader#readme",
+  "main": "thaismartcardreader.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Monthop Champaruang",
+  "directories": {
+    "thaismartcardreader": "thaismartcardreader"
+	}
+}
