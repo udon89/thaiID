@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "@privageapp/thai-national-id-reader": "^1.0.4",
+    "axios": "^1.10.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "node-red-contrib-thaismartcardreader": "github:monthop/node-red-contrib-thaismartcardreader"
+  },
+  "name": "thaiid",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
